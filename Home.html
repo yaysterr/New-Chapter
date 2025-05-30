@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-center">
+        <div class="doll-section">
+            <a href="https://www.instagram.com/kanwgemo/">
+                <img
+                    id="dollImage"
+                    class="doll-image"
+                    src="asset/doll-front.webp"
+                    alt=""
+                />
+            </a>
+        </div>
+        <div class="new-collection-text">
+            <p>New Collection</p>
+            <p>↓</p>
+        </div>
+    </div>
+
+    <div class="jersey-section-wrapper">
+        <div class="jersey-image-container">
+            <img
+                id="jerseyImage"
+                class="jersey-image"
+                src="asset/jersey-front.png"
+                alt=""
+            />
+        </div>
+        <div class="form-container">
+            <p class="form-question">You want this for a Farewell's souvenir?</p>
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Enter your name"
+                class="text-input"
+            />
+            <input
+                type="text"
+                id="classNameInput"
+                placeholder="Enter your class"
+                class="text-input"
+            />
+            <input
+                type="text"
+                id="sizeInput"
+                placeholder="Enter your size(s,m,l,xl)"
+                class="text-input"
+            />
+        </div>
+        <div class="reserve-button-container">
+            <button id="reserveButton" class="reserve-button">
+                Reserve
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
